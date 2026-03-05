@@ -109,6 +109,12 @@ Overlays for anatomical study — landmark labels, angle arcs, distance lines, a
 
 Regenerate with `node render-test-poses.cjs` (requires `canvas` dev dependency).
 
+### All 88 Poses
+
+![All poses](test-renders/all-poses.png)
+
+Every preset pose grouped by category — 10 rows, one per category. Regenerate with `node render-test-all-poses.cjs`.
+
 ## Pose Library (88 presets)
 
 | Category | Count | Description |
