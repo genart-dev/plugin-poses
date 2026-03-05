@@ -1,0 +1,63 @@
+{
+  "name": "@genart-dev/plugin-poses",
+  "version": "0.1.0",
+  "description": "Pose reference, practice sessions, and study annotations for genart.dev",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "genart.dev",
+    "email": "support@genart.dev",
+    "url": "https://genart.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genart-dev/plugin-poses.git"
+  },
+  "homepage": "https://genart.dev",
+  "keywords": [
+    "genart",
+    "generative-art",
+    "design-plugin",
+    "pose-reference",
+    "figure-drawing",
+    "skeleton",
+    "gesture-drawing"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@genart-dev/core": "^0.3.0"
+  },
+  "devDependencies": {
+    "canvas": "^3.2.1",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}
