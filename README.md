@@ -107,13 +107,13 @@ Overlays for anatomical study — landmark labels, angle arcs, distance lines, a
 - **Row 3**: Pose categories — standing, seated, dynamic, dance (from 88 presets across 10 categories)
 - **Row 4**: Timer layer, landmark annotations, angle annotations, action-line annotations
 
-Regenerate with `node render-test-poses.cjs` (requires `canvas` dev dependency).
+Source: [`test-renders/poses-montage.genart`](test-renders/poses-montage.genart). Regenerate with `bash test-renders/render.sh`.
 
 ### All 88 Poses
 
 ![All poses](test-renders/all-poses.png)
 
-Every preset pose grouped by category — 10 rows, one per category. Regenerate with `node render-test-all-poses.cjs`.
+Every preset pose grouped by category — 10 rows, one per category. Source: [`test-renders/all-poses.genart`](test-renders/all-poses.genart).
 
 ## Pose Library (88 presets)
 

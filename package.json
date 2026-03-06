@@ -55,7 +55,6 @@
     "@genart-dev/core": "^0.3.0"
   },
   "devDependencies": {
-    "canvas": "^3.2.1",
     "tsup": "^8.3.6",
     "typescript": "^5.7.3",
     "vitest": "^3.0.5"
