@@ -7,7 +7,7 @@ import { posesMcpTools } from "./poses-tools.js";
 const posesPlugin: DesignPlugin = {
   id: "poses",
   name: "Pose Reference",
-  version: "0.1.0",
+  version: "0.2.0",
   tier: "free",
   description:
     "Pose reference skeletons, timed practice sessions, and study annotations for figure drawing.",
@@ -60,6 +60,7 @@ export {
   computeCenterOfGravity,
   computeSymmetryScore,
 } from "./shared.js";
+export { interpolatePose } from "./interpolation.js";
 export type {
   KeypointName,
   Keypoint,

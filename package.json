@@ -1,6 +1,6 @@
 {
   "name": "@genart-dev/plugin-poses",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pose reference, practice sessions, and study annotations for genart.dev",
   "type": "module",
   "main": "./dist/index.cjs",
