@@ -3,3 +3,5 @@ dist/
 *.tsbuildinfo
 .npmrc
 *.DS_Store
+package-lock.json
+.yarn/install-state.gz
